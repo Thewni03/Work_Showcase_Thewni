@@ -7,9 +7,10 @@
   --color-yellow: #FFC700;
   --color-coral: #FF5A5F;
   --color-blue: #5B7CFA;
-
-  --font-display: "Space Grotesk", sans-serif;
-  --font-mono: "IBM Plex Mono", monospace;
+  --color-pink: #FF6FB5;
+  --color-mint: #3DDC97;
+  --color-lavender: #B39DFF;
+  --color-sky: #4FC3F7;
 }
 
 body {
