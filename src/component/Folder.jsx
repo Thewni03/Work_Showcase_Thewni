@@ -4,6 +4,11 @@ const colorMap = {
   yellow: "bg-yellow",
   coral: "bg-coral",
   blue: "bg-blue",
+  pink: "bg-pink",
+  mint: "bg-mint",
+  lavender: "bg-lavender",
+  sky: "bg-sky",
+  white: "bg-white",
 };
 
 //like on a desktop folders
