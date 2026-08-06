@@ -1,0 +1,85 @@
+{
+    "profile": {
+      "name": "Thewni Mahathanthri",
+      "role": "Information Technology Undergraduate — Full-Stack Developer",
+      "tagline": "I build interfaces that don't look like everyone else's.",
+      "location": "Colombo 10, Sri Lanka",
+      "email": "thewni2003@gmail.com",
+      "resumeUrl": "/resume.pdf",
+      "socials": [
+        { "label": "GitHub", "url": "https://github.com/yourhandle" },
+        { "label": "LinkedIn", "url": "https://linkedin.com/in/yourhandle" },
+        { "label": "Twitter", "url": "https://twitter.com/yourhandle" }
+      ]
+    },
+    "about": {
+      "heading": "About",
+      "body": "I'm a final-year BSc (Hons) IT student at SLIIT with hands-on experience across full-stack and microservices development. My work spans banking backend systems, event-driven architecture with Kafka, and full MERN-stack platforms — I care about building things that hold up outside a classroom, not just demo well once."
+    },
+    "skills": [
+      { "name": "React", "level": 10 },
+      { "name": "JavaScript", "level": 85 },
+      { "name": "Spring Boot", "level": 80 },
+      { "name": "Tailwind CSS", "level": 90 },
+      { "name": "Git / GitHub", "level": 85 }
+    ],
+    "experience": [
+      {
+        "role": "Your Role",
+        "company": "Company Name",
+        "period": "2025 — Present",
+        "description": "One or two lines about what you actually did, in plain terms."
+      }
+    ],
+    "education": [
+      {
+        "degree": "Your Degree",
+        "institution": "Your Institution",
+        "period": "2023 — 2027",
+        "notes": "Relevant coursework or achievements"
+      }
+    ],
+    "projects": [
+      {
+        "id": "proj-01",
+        "name": "Project One",
+        "folderColor": "yellow",
+        "description": "A short description of what this project does and the problem it solves.",
+        "tech": ["React", "Tailwind", "Vite"],
+        "repoUrl": "https://github.com/yourhandle/project-one",
+        "liveUrl": "https://project-one.vercel.app",
+        "image": ""
+      },
+      {
+        "id": "proj-02",
+        "name": "Project Two",
+        "folderColor": "coral",
+        "description": "A short description of what this project does and the problem it solves.",
+        "tech": ["Spring Boot", "PostgreSQL"],
+        "repoUrl": "https://github.com/yourhandle/project-two",
+        "liveUrl": "",
+        "image": ""
+      },
+      {
+        "id": "proj-03",
+        "name": "Project Three",
+        "folderColor": "blue",
+        "description": "A short description of what this project does and the problem it solves.",
+        "tech": ["React", "Node.js"],
+        "repoUrl": "https://github.com/yourhandle/project-three",
+        "liveUrl": "",
+        "image": ""
+      },
+      {
+        "id": "proj-04",
+        "name": "Project Four",
+        "folderColor": "yellow",
+        "description": "A short description of what this project does and the problem it solves.",
+        "tech": ["React", "Tailwind", "Vite"],
+        "repoUrl": "https://github.com/yourhandle/project-one",
+        "liveUrl": "https://project-one.vercel.app",
+        "image": ""
+      }
+    ]
+  }
+  
