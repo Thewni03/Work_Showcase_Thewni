@@ -2,14 +2,14 @@
     "profile": {
       "name": "Thewni Mahathanthri",
       "role": "Information Technology Undergraduate — Full-Stack Developer",
-      "tagline": "I build interfaces that don't look like everyone else's.",
+      "tagline": "Turning ideas into Digital Solutions.",
       "location": "Colombo 10, Sri Lanka",
       "email": "thewni2003@gmail.com",
       "resumeUrl": "/resume.pdf",
       "socials": [
-        { "label": "GitHub", "url": "https://github.com/yourhandle" },
-        { "label": "LinkedIn", "url": "https://linkedin.com/in/yourhandle" },
-        { "label": "Twitter", "url": "https://twitter.com/yourhandle" }
+        { "label": "GitHub", "url": "https://github.com/Thewni03" },
+        { "label": "LinkedIn", "url": "https://linkedin.com/in/yourhandle" }
+      
       ]
     },
     "about": {
@@ -17,11 +17,17 @@
       "body": "I'm a final-year BSc (Hons) IT student at SLIIT with hands-on experience across full-stack and microservices development. My work spans banking backend systems, event-driven architecture with Kafka, and full MERN-stack platforms — I care about building things that hold up outside a classroom, not just demo well once."
     },
     "skills": [
-      { "name": "React", "level": 10 },
-      { "name": "JavaScript", "level": 85 },
-      { "name": "Spring Boot", "level": 80 },
-      { "name": "Tailwind CSS", "level": 90 },
-      { "name": "Git / GitHub", "level": 85 }
+      { "name": "Java", "level": 75 },
+      { "name": "Spring Boot", "level": 65 },
+      { "name": "React.js ", "level": 70 },
+      { "name": "Node.js ", "level": 70 },
+      { "name": "MongoDB", "level": 70 },
+      { "name": "MySQL", "level": 75 },
+      { "name": "REST APIs ", "level": 70 },
+      { "name": "JWT  ", "level": 50 },
+      { "name": "Git & GitHub", "level": 85 },
+      { "name": "HTML/CSS/JS ", "level": 85 },
+      { "name": "Postman", "level": 75 }
     ],
     "experience": [
       {
@@ -33,10 +39,16 @@
     ],
     "education": [
       {
-        "degree": "Your Degree",
-        "institution": "Your Institution",
-        "period": "2023 — 2027",
-        "notes": "Relevant coursework or achievements"
+        "degree": "BSc (Hons) in Information Technology",
+        "institution": "Sri Lanka Institute of Information Technology (SLIIT), Malabe",
+        "period": "2023 — Present (4th Year)",
+        "notes": "Final year, full-stack and microservices focus"
+      },
+      {
+        "degree": "Adv. Certificate in Wildlife Conservation & Management",
+        "institution": "The Open University of Sri Lanka",
+        "period": "2023 — 2025",
+        "notes": "Final year, full-stack and microservices focus"
       }
     ],
     "projects": [
