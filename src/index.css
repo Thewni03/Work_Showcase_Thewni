@@ -1,1 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&family=IBM+Plex+Mono:wght@400;500&display=swap');
 @import "tailwindcss";
+
+@theme {
+  --color-bg: #F5F3EE;
+  --color-ink: #111111;
+  --color-yellow: #FFC700;
+  --color-coral: #FF5A5F;
+  --color-blue: #5B7CFA;
+
+  --font-display: "Space Grotesk", sans-serif;
+  --font-mono: "IBM Plex Mono", monospace;
+}
+
+body {
+  background-color: var(--color-bg);
+  color: var(--color-ink);
+  font-family: var(--font-mono);
+}
+
+/* Reusable neobrutalist primitives */
+.nb-border {
+  border: 3px solid var(--color-ink);
+}
+
+.nb-shadow {
+  box-shadow: 6px 6px 0 var(--color-ink);
+}
+
+.nb-shadow-sm {
+  box-shadow: 4px 4px 0 var(--color-ink);
+}
+
+.nb-press:active {
+  transform: translate(3px, 3px);
+  box-shadow: 2px 2px 0 var(--color-ink);
+}
