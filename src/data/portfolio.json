@@ -31,10 +31,16 @@
     ],
     "experience": [
       {
-        "role": "Your Role",
-        "company": "Company Name",
-        "period": "2025 — Present",
-        "description": "One or two lines about what you actually did, in plain terms."
+        "role": "IT Intern (Backend Software Developer)",
+        "company": "Sampath Bank PLC — Head Office, Nawam Mawatha",
+        "period": "Oct 2025 — May 2026",
+        "description": "Backend development within a banking environment (developer side)— working on production-style system, secure APIs, and following enterprise development practices."
+      },
+      {
+        "role": "Process Associate",
+        "company": "Infomate (Pvt) Ltd — A John Keells Group Company",
+        "period": "Aug 2024 — Apr 2025",
+        "description": "Process operations role at a John Keells Group company, developing workplace and operational experience alongside technical studies."
       }
     ],
     "education": [
@@ -54,42 +60,56 @@
     "projects": [
       {
         "id": "proj-01",
-        "name": "Project One",
-        "folderColor": "yellow",
-        "description": "A short description of what this project does and the problem it solves.",
-        "tech": ["React", "Tailwind", "Vite"],
-        "repoUrl": "https://github.com/yourhandle/project-one",
-        "liveUrl": "https://project-one.vercel.app",
+        "name": "Toy Store",
+        "folderColor": "white",
+        "description": "Microservices System , Multi-service e-commerce backend built on event-driven architecture — separate Product, Inventory, Order, and Base services communicating asynchronously via Kafka.",
+        "tech": ["Spring Boot", "Kafka", "Feign REST clients"],
+        "repoUrl": "https://github.com/Thewni03/Toy_Company.git",
         "image": ""
       },
       {
         "id": "proj-02",
-        "name": "Project Two",
-        "folderColor": "coral",
-        "description": "A short description of what this project does and the problem it solves.",
-        "tech": ["Spring Boot", "PostgreSQL"],
-        "repoUrl": "https://github.com/yourhandle/project-two",
-        "liveUrl": "",
+        "name": "Nutique",
+        "folderColor": "mint",
+        "description": "Hamper & Gifting E-Commerce Platform- Full-stack e-commerce platform for a real hamper and gifting business. Customers browse a product catalogue, build custom gift hampers, or buy pre-made ones, then check out via a WhatsApp-based order flow instead of a payment gateway. Includes JWT-secured admin panel for managing inventory, pricing, and orders, plus centralized exception handling for clean API error responses.",
+        "tech": ["Spring Boot", "Java 21","MongoDB","JWT","React","Node.js"],
+        "repoUrl": "https://github.com/Thewni03/Nut.git",
         "image": ""
       },
       {
         "id": "proj-03",
-        "name": "Project Three",
-        "folderColor": "blue",
-        "description": "A short description of what this project does and the problem it solves.",
-        "tech": ["React", "Node.js"],
-        "repoUrl": "https://github.com/yourhandle/project-three",
-        "liveUrl": "",
+        "name": "UniMarket",
+        "folderColor": "pink",
+        "description": "University Marketplace(Group) -Full-stack campus commerce platform — skills marketplace, second-hand goods shop, real-time chat between users, an ML-driven trending engine, and an admin dashboard with SLA tracking.",
+        "tech": ["MERN stack", "real-time chat","ML"],
+        "repoUrl": "https://github.com/Thewni03/University_Market_Place.git",
         "image": ""
       },
       {
         "id": "proj-04",
-        "name": "Project Four",
+        "name": "Smart Campus Operations Hub",
+        "folderColor": "sky",
+        "description": "Group project · Y3S2, SLIIT  - Centralized campus management system for resource booking, maintenance reporting, and role-based access control. ",
+        "tech": ["Spring Boot", "Tailwind", "React"],
+        "repoUrl": "https://github.com/Thewni03/Smart-Campus-Operations-Hub.git",
+        "image": ""
+      },
+      {
+        "id": "proj-05",
+        "name": "OTP Authentication System",
         "folderColor": "yellow",
-        "description": "A short description of what this project does and the problem it solves.",
-        "tech": ["React", "Tailwind", "Vite"],
-        "repoUrl": "https://github.com/yourhandle/project-one",
-        "liveUrl": "https://project-one.vercel.app",
+        "description": "Secure email-based OTP authentication API — handles registration, OTP verification, and protected route access via session management.",
+        "tech": ["Node.js", "REST API"],
+        "repoUrl": "https://github.com/Thewni03/get_otp.git",
+        "image": ""
+      },
+      {
+        "id": "proj-06",
+        "name": "Pet Wellness Management System",
+        "folderColor": "white",
+        "description": "Group project - Web app supporting pet owners, vets, and admins — appointment booking, online payments via PayHere, Cloudinary image uploads, and a support ticketing system.",
+        "tech": ["MERN stack", "Cloudinary", "PayHere"],
+        "repoUrl": "https://github.com/Thewni03/Pets.git",
         "image": ""
       }
     ]
