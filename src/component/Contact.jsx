@@ -43,21 +43,21 @@ export default function Contact({ email }) {
         <input
           name="name"
           required
-          placeholder="Your name"
+          placeholder="Enter your name"
           className="w-full nb-border px-3 py-2 font-mono text-sm bg-bg"
         />
         <input
           name="email"
           type="email"
           required
-          placeholder="Your email"
+          placeholder="Enter your email"
           className="w-full nb-border px-3 py-2 font-mono text-sm bg-bg"
         />
         <textarea
           name="message"
           required
           rows="4"
-          placeholder="Your message"
+          placeholder="Type your message"
           className="w-full nb-border px-3 py-2 font-mono text-sm bg-bg"
         />
         <button
