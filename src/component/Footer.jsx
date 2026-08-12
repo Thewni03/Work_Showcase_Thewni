@@ -3,7 +3,7 @@ export default function Footer({ socials }) {
       <footer className="nb-border border-x-0 border-b-0 mt-8">
         <div className="max-w-5xl mx-auto px-6 py-8 flex flex-col sm:flex-row justify-between items-center gap-4">
           <p className="font-mono text-xs text-ink/60">
-            © {new Date().getFullYear()} — built with React & Tailwind
+            © {new Date().getFullYear()} — Developed and Deployed By Thewni
           </p>
           <div className="flex gap-4 font-mono text-sm">
             {socials.map((s) => (
