@@ -59,7 +59,7 @@ A few things I'd like to add:
 * Real screenshots inside each project folder
 * A downloadable resume
 * A dark mode version of the desktop
-* 
+
 **Built by Thewni Mahathanthri**
 
 *Thanks for visiting my desktop.*
