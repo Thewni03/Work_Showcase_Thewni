@@ -1,108 +1,65 @@
+# Work Showcase — Thewni Mahathanthri
 
-# Work_Showcase_Thewni
-Portfolio | Thewni Mahathanthri
+[![Live Site](https://img.shields.io/badge/live-work--showcase--thewni.vercel.app-FFC700?style=flat-square&labelColor=111111)](https://work-showcase-thewni.vercel.app/)
+[![Built with React](https://img.shields.io/badge/built%20with-React%20%2B%20Vite-5B7CFA?style=flat-square&labelColor=111111)](https://vitejs.dev)
 
-# WorkShowcase — Thewni Mahathanthri's Portfolio
+My personal portfolio, built as part of the WIF Development Team onboarding project.
 
-A personal developer portfolio built as part of the WIF Development Team onboarding
-project. Design direction: **neobrutalist "desktop"** — bold black borders, flat
-colors, offset shadows, and projects presented as folder icons scattered like a
-desktop, click to open.
+**Live site:** [work-showcase-thewni.vercel.app](https://work-showcase-thewni.vercel.app/)
 
-**Live site:** _add your deployed Vercel URL here_
-**Repo:** https://github.com/Thewni03/Work_Showcase_Thewni
+**Repo:** [Thewni03/Work_Showcase_Thewni](https://github.com/Thewni03/Work_Showcase_Thewni)
 
----
+## The idea
 
-## Overview
+I wanted my portfolio to feel a little less like a portfolio.
 
-This site pulls together my work as an IT undergraduate at SLIIT — full-stack and
-microservices projects, internship experience, and skills — into a single portfolio
-site designed to stand out from typical AI-generated templates.
+So I made it look like a desktop.
 
-## Tech Stack
+Instead of the usual cards, gradients, and rounded corners, projects appear as **folders scattered across the screen**. Click a folder and it opens into its own little window with the project details inside.
 
-| Layer | Technology |
-|---|---|
-| Framework | React + Vite |
-| Styling | Tailwind CSS v4 (CSS-first config) |
-| Animation | Framer Motion |
-| Contact form | EmailJS (no backend required) |
-| Deployment | Vercel |
-| Version control | Git + GitHub |
+The whole thing follows a **neobrutalist** style — thick black borders, flat colours, hard shadows, slightly tilted elements, and interactions that actually feel clickable.
 
-## Features
+Basically, **a desktop full of my work.**
 
-- **Data-driven content** — all text, skills, and project details live in
-  `src/data/portfolio.json`, not hardcoded into components
-- **Folder-style project cards** — each project renders as a bordered, slightly
-  rotated "folder" that opens into a detail window on click, styled like a flat,
-  neobrutalist take on an OS window
-- **Animated skill bars** and scroll-triggered motion via Framer Motion
-- **Working contact form** wired to EmailJS, reading credentials from environment
-  variables (never committed to the repo)
-- Fully responsive layout
+## Built with
 
-## Running Locally
+React + Vite, Tailwind CSS, Framer Motion, and EmailJS.
+
+Deployed on Vercel.
+
+## A few details
+
+* **Content is data-driven** — my bio, skills, and projects live in `src/data/portfolio.json`, so updating the portfolio doesn't mean digging through components.
+* **Projects are interactive** — each project is a clickable folder that opens into its own window.
+* **The contact form works** — messages are sent through EmailJS without needing a backend.
+* **Responsive** — the desktop idea still works on smaller screens.
+
+There are also a few little interactions throughout the site, so don't just scroll past everything. **Click around. **
+
+## Run it locally
 
 ```bash
 git clone https://github.com/Thewni03/Work_Showcase_Thewni.git
 cd Work_Showcase_Thewni
 npm install
-cp .env.example .env    # then fill in your EmailJS keys, see below
+cp .env.example .env   # add your own EmailJS keys here
 npm run dev
 ```
 
-Open `http://localhost:5173`.
-
-## Contact Form Setup (EmailJS)
-
-1. Create a free account at [emailjs.com](https://emailjs.com)
-2. Add an Email Service and a Template with `name`, `email`, `message` fields
-3. Copy your Service ID, Template ID, and Public Key into `.env`:
-   ```
-   VITE_EMAILJS_SERVICE_ID=your_service_id
-   VITE_EMAILJS_TEMPLATE_ID=your_template_id
-   VITE_EMAILJS_PUBLIC_KEY=your_public_key
-   ```
-4. `.env` is git-ignored — never commit real keys
-
-## Build for Production
-
-```bash
-npm run build
-```
-
-Output goes to `dist/`.
-
 ## Deployment
 
-Deployed on Vercel, connected directly to this GitHub repo. Every push to `main`
-triggers an automatic redeploy. Environment variables are set in the Vercel project
-dashboard under **Settings → Environment Variables**, matching the keys in `.env`.
+The portfolio is connected to Vercel, so every push to `main` triggers a new deployment.
 
-## Roadmap / Possible Improvements
+EmailJS environment variables are configured separately in Vercel and aren't committed to the repository.
 
-- Add real project screenshots to each folder window
-- Add a downloadable resume link in the hero
-- Dark mode toggle (flat neobrutalist dark palette)
+## What's next? -(Future Enhancement)
 
----
+A few things I'd like to add:
 
-Built by **Thewni Mahathanthri** — [LinkedIn](https://www.linkedin.com/in/thewni) ·
-[GitHub](https://github.com/Thewni03)
+* Real screenshots inside each project folder
+* A downloadable resume
+* A dark mode version of the desktop
+* 
+**Built by Thewni Mahathanthri**
 
-git checkout content/portfolio-data
-git push origin -u content/portfolio-data
-git checkout main
-git pull origin main
-git merge content/portfolio-data
-git push origin main
-
-GIT_AUTHOR_DATE="2026-07-09 10:00:00"  GIT_COMMITTER_DATE="2026-07-09 11:00:00" git commit -m "edited folder file"
-
-
-GIT_AUTHOR_DATE="2026-08-14 10:00:00" GIT_COMMITTER_DATE="2026-08-14 11:00:00" git commit -m "read me file "
- 
-
- https://www.linkedin.com/in/thewni
+*Thanks for visiting my desktop.*
